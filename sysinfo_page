@@ -12,22 +12,33 @@ TIME_STAMP="Updated on $RIGHT_NOW by $USER"
 
 system_info()
 {
-
+    #temporary function stub
+    echo "<p>Funcation not yet implemented</p>"
 }
 
 show_uptime()
 {
-
+    echo "<h2>System uptime</h2>"
+    echo "<pre>"
+    uptime
+    echo "</pre>"
 }
 
 drive_space()
 {
-
+    echo "<h2>Filesystem space</h2>"
+    echo "<pre>"
+    df
+    echo "</pre>"
 }
 
 home_space()
 {
-
+    echo "<h2>Home directory space by user</h2>"
+    echo "<pre>"
+    echo "Bytes Directory"
+    du -s /home/* | sort -nr
+    echo "</pre>"
 }
 
 # Main
