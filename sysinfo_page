@@ -107,7 +107,7 @@ while [ "$1" != "" ]; do
 done
 
 #testing the code to verify command line processing
-#
+
 #if [ "$interactive" = "1" ]; then
 #    echo "interactive is on"
 #else
