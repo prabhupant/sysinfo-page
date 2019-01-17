@@ -123,7 +123,6 @@ if [ "$interactive" = "1" ]; then
     if [ -n "$response" ]; then
         filename=$response
     fi
-
     if [ -f $filename ]; then
         echo -n "Output file exists. Overwrite? (y/n) > "
         read respoonse
